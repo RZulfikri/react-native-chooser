@@ -70,10 +70,10 @@ export default class AwesomeProject extends Component {
 | onSelect        | function  | null            | function that executes on selection of an option |
 | defaultText     | string    | Click To Select | Text to show as default text                     |
 | style           | object    | null            | To style the select box.                         |
-| backdropStyle   | object    | null            | To style the overlay                             |
+| backdropStyle   | object    | null            | To style the transparant                         |
 | textStyle       | object    | null            | To style the text shown in the box               |
 | optionListStyle | object    | null            | To style the selection box                       |
-| transparent     | boolean   | false           | To set the transparent prop on Modal             |
+| selectBoxStyle  | object    | null            | Style select Box size, etc                       |
 | animationType   | string    | "none"          | To set the animationType prop on Modal           |
 | indicator       | string    | "none", "up" or "down" | "none" | To enable an indicator arrow     |
 | indicatorColor  | string    | "black"         | The color of the indicator arrow                 |
